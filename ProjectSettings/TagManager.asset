@@ -6,6 +6,7 @@ TagManager:
   tags:
   - BlueBlock
   - Obstacle
+  - Wall
   layers:
   - Default
   - TransparentFX

@@ -42,5 +42,10 @@ public class PlayerController : MonoBehaviour
             transform.position = startPosition; 
             rb.linearVelocity = Vector2.zero; 
         }
+        if (other.gameObject.CompareTag("Wall"))
+        {
+            rb.linearVelocity = Vector2.zero;
+            Debug.Log("Nhân vật đã va chạm vào tường!");
+        }
     }
 }
