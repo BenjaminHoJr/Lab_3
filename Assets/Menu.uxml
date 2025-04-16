@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Menu.uss?fileID=7433441132597879392&amp;guid=826e99808d15b1a48a0c65c2f6eaf092&amp;type=3#Menu" />
+    <ui:VisualElement name="Root" style="flex-grow: 1; align-items: center; justify-content: flex-start; flex-direction: column;">
+        <ui:Label text="THE WORLD&apos;S..." name="SubTitle" style="font-size: 25px; align-items: stretch; align-self: auto; left: -203px; right: 90px; top: 15px;" />
+        <ui:Label text="HARDEST GAME" name="Title" style="font-size: 70px; color: rgb(0, 46, 255); -unity-font-style: bold; -unity-text-align: upper-center;" />
+        <ui:Label text="VERSION 1.0" name="VersionText" style="position: absolute; right: 0; top: 125px; font-size: 20px; left: 700px;" />
+        <ui:VisualElement name="Row1" style="flex-grow: 1; flex-direction: row; width: auto; justify-content: space-between; top: -70px; font-size: 25px; height: auto; bottom: -187px;">
+            <ui:Button text="PLAY&#10;GAME&#10;" name="PLAY" style="color: rgb(255, 0, 0); height: 80px; bottom: -170px;" />
+            <ui:Button text="LEVEL&#10;SELECT&#10;" name="LEVEL" style="color: rgb(0, 29, 255); height: 80px; bottom: -170px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
